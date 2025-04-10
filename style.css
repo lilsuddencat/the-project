@@ -1,0 +1,56 @@
+body{
+    background-image: url(backround.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#logo{
+    width: 200px;
+    margin-top: 50px;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.6s;
+}
+.logoCont{
+display: flex;
+align-items: center;
+font-size: 115px;
+}
+.start{
+    /* background-image: url("Фон.png"); */
+    border: none;
+    border-radius: 10px;
+    background-color: chartreuse;
+    display: inline-block;
+    margin-left: 40%;
+    width: 240px;
+    margin-top: 15px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    /* box-shadow: 11px 11px 0px black; */
+}
+#paragraph{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.game{
+    opacity: 0;
+}
+#test{
+    display: block;
+    margin: 10px;
+    text-align: left;
+}
+
