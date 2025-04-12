@@ -11,6 +11,7 @@
     <title>Document</title>
 </head>
 <body>
+    
     <div class="container welcome">
 
         <div class="logoCont">
@@ -24,12 +25,23 @@
         
 
     </div>
-    <div class="container game">
+    <div class="container learn">
         <h2>Начнем с ФСУ</h2>
-        <p id="test">(a + b)² = a² + 2ab + b² – квадрат суммы</p>
-        <p id="test">(a – b)² = a² – 2ab + b² – квадрат разности</p>
+    <div id="formulaList">
+        
     </div>
-    <button id="back">назад</button>
+       
+        <button id="back">назад</button>
+        <button id="next">далее</button>
+    </div>
+    <div class="container game">
+        <div id="task">
+
+        </div>
+        <button id="check">проверить</button>
+        <button id="sqare">𝓃²</button>
+        <h2 id="wrong"></h2>
+    </div>
     
     <script type="module" src="script.js"></script>
 </body>
