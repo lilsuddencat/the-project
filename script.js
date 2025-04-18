@@ -93,3 +93,9 @@ function getFormula(){
 sqare.onclick=function(event){
     input.value=input.value+"²"
 }
+three.onclick=function(event){
+    input.value=input.value+"³"
+}
+four.onclick=function(event){
+    input.value=input.value+"⁴"
+}
