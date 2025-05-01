@@ -60,7 +60,8 @@ next.onclick = function (event) {
 }
 check.onclick=function (event) {
     let userFormula = left_h2.innerHTML+input.value+right_h2.innerHTML
-    console.log(userFormula)
+    console.log(formulas[taskCounter].split(" — ")[0],userFormula)
+    console.log(formulas[taskCounter].split(" — ")[0]==userFormula)
     if (formulas[taskCounter].split(" — ")[0]==userFormula) {
         taskCounter++
         if (taskCounter==tasks.length) {
